@@ -1,0 +1,88 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'NanumMyeongjoEco';
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active a:visited{
+    color:#000;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color:rgb(248, 242, 236);
+}
+
+#wrap{
+    max-width:800px;
+    height:100vh;
+    margin:100px auto;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+header h1{
+    width:100%;
+    text-align: center;
+    padding:35px 0 40px;
+}
+
+#nav ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+#nav ul li{
+    display: inline-block;
+    background-color:rgb(237, 229, 221);
+    padding:10px 15px;
+    border-radius: 50px;
+    border:1px solid transparent;
+    box-sizing: border-box;
+}
+
+#nav ul li:hover{
+    border:1px solid #000;
+    background-color: rgb(240, 219, 198);
+    transition:all .3s ease-in-out;
+}
+
+main{
+    padding-top:40px;
+}
+
+section{
+    width:100%;
+    height:auto;
+    background-color:rgb(237, 229, 221);
+    border-radius:20px;
+    padding:20px;
+}
+
+section h2{
+    padding-bottom:20px;
+    border-bottom:1px solid #cbcbcb;
+}
+
+section + section{
+    margin-top:30px;
+}
+
+section .sec-content{
+    padding-top:20px;
+}
+
+.sec-content li + li{
+    margin-top:10px;
+}
