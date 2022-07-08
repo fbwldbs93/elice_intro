@@ -86,3 +86,15 @@ section .sec-content{
 .sec-content li + li{
     margin-top:10px;
 }
+
+
+/*js*/
+
+.show{
+    display:block;
+}
+
+
+.hide{
+    display:none;
+}
